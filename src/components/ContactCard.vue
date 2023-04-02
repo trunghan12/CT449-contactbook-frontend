@@ -1,11 +1,10 @@
 <script>
-export default {
-    props: {
+    export default {
+        props: {
         contact: { type: Object, required: true },
-    },
-};
+        },
+    };
 </script>
-
 <template>
     <div>
         <div class="p-1">
@@ -15,7 +14,7 @@ export default {
         <div class="p-1">
             <strong>E-mail:</strong>
             {{ contact.email }}
-        </div>
+            </div>
         <div class="p-1">
             <strong>Địa chỉ:</strong>
             {{ contact.address }}
